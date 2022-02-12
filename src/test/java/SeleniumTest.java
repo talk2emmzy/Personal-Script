@@ -16,7 +16,7 @@ public class SeleniumTest {
         //Finding username elements
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
         //Finding password elements
-        driver.findElement(By.id("password")).sendKeys("password");
+        driver.findElement(By.id("password")).sendKeys("secret_sauce");
         //Finding Login elements
         driver.findElement(By.id("login-button")).click();
         driver.quit();
