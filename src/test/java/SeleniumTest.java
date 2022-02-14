@@ -11,6 +11,7 @@ public class SeleniumTest {
         System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");
         //Instantiate the driver
         WebDriver driver = new ChromeDriver();
+
         //Goto the url
         driver.get("https://www.saucedemo.com/");
         //Finding username elements
